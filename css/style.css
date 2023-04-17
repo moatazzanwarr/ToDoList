@@ -1,0 +1,41 @@
+.all{
+    background: url(../images/bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.content{
+    height: 500px;
+    overflow: hidden;
+}
+
+.content .pr-todo{
+    height: 500px;
+    overflow: scroll;
+    flex-wrap: wrap;
+}
+
+.content .pr-todo .todo{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin: 20px 0;
+    padding: 5px 20px;
+    width: auto;
+}
+
+.content .pr-todo .todo .icon-trash-o{
+    color: red;
+    cursor: pointer;
+}
+
+.content .pr-todo .todo .icon-trash-o:hover{
+    opacity: 0.4;
+}
