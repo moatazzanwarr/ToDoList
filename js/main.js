@@ -33,9 +33,10 @@ document.addEventListener("DOMContentLoaded",() => {
         check.addEventListener("click",() => {
             if(check.checked){
                 p.style.textDecoration = "line-through";
+                p.style.color = "red";
             }else{
                 p.style.textDecoration = "none";
-
+                p.style.color = "#fff"
             }
         });
         span.onclick = () => {
